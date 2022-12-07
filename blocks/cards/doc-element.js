@@ -2,9 +2,13 @@ var doc = DocumentApp.getActiveDocument();
 var body = doc.getBody();
 
       // Create a two-dimensional array containing the cell contents.
-var table = [
+var table = 
+[
   ['  Cards '],
-  [' <card_image> ', ' <card_description> ']
+  [
+   ' <card_image> ', 
+   'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras malesuada sollicitudin dolor et ornare. Cras gravida blandit est, gravida blandit lorem tempus et. Nunc fermentum elit vitae elit viverra pulvinar.'
+  ]
 ];
 
 // Build a table from the array.
